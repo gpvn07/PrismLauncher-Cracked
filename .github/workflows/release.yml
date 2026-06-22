@@ -1,11 +1,10 @@
-name: Build Application and Make Release
+name: "Build Application and Make Release"
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
   push:
     tags:
-      - "*"
-
+      - '*'
 permissions: {}
 
 jobs:
